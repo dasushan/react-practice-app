@@ -1,0 +1,41 @@
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 100%;
+}
+.header header{
+    
+    text-align: center;
+    padding: 0 10%;
+}
+.section-icon {
+  height: 40px;
+  width: 40px;
+  margin-left: 5rem;
+}
+.navbar {
+  width: 45rem;
+  max-width: 80%;
+  height: 3rem;
+  background-color: aqua;
+  padding: 1rem;
+  margin: 0.75rem;
+  border-radius: 12px;
+  flex: 2;
+}
+.navbar-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-links a {
+  text-decoration: none;
+  color: black;
+  font: inherit;
+  font-weight: 600;
+  font-style: italic;
+}
